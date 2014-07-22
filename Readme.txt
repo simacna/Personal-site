@@ -1,0 +1,1 @@
+The main purpose of this personal site is to practice different web technologies. I’ll be adding them soon to my personal webpage, http://sinasima.com
