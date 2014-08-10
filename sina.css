@@ -126,8 +126,8 @@ body {
 
 /* tabs on top for changing to different project sections */
 #nav{
-	width: 100%;
-	margin-left: 40%;
+	width: 25%;
+	margin: 0 auto;
 }
 .buttons{
 	display: inline;
@@ -141,12 +141,17 @@ li a{
 	border-radius: 2px;
 	margin: 2px;
 }
+li a:hover{
+	background-color: #EAFFBD;
+}
 #git{
 	width: 80px;
 	height: 80px;
 	display: none;
 	background-color: blue;
 }
-.active{
-	background-color: red;
+#git{
+	display: none;
+	height, width: 200px;
+	border: 2px solid red;
 }
