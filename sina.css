@@ -126,7 +126,7 @@ body {
 
 /* tabs on top for changing to different project sections */
 #nav{
-	width: 25%;
+	width: 35%;
 	margin: 0 auto;
 }
 .buttons{
@@ -151,7 +151,9 @@ li a:hover{
 	background-color: blue;
 }
 #git{
-	display: none;
-	height, width: 200px;
+	display: inline;
+	height: 200px;
+	width: 200px;
+	background-color: black;
 	border: 2px solid red;
 }

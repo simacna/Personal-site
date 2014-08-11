@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	
-	$(".buttons").hover(function(){
-		$('#git').toggle();
-	});
+	$('#git').toggle(function(){
+		$('#git').hide();
+		};
 })
