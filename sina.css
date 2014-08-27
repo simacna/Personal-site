@@ -124,14 +124,43 @@ body {
 	100% {margin-left: -1000px;}
 }
 
-/* tabs on top for changing to different project sections */
-#nav{
-	width: 35%;
+/*tabs on top for changing to different project sections */
+
+
+#main{
+	width: 70%;
 	margin: 0 auto;
 }
-.buttons{
+#p{
+	float: right;
 	display: inline;
-	
+	width: 300px !important;
+	padding-right: 100px;
+}
+
+#profile{
+	display: inline;
+	border-radius: 3px;
+	float: left;
+	position: relative;
+	padding-left: 300px;
+}
+
+
+#summary{
+	display: inline;
+	vertical-align: top;
+	position: relative;
+	margin-right: 100px;
+}
+
+#projects{
+	display: block;
+}
+.buttons{
+	display: inline; 
+	text-decoration: none;
+
 }
 li a{
 	background-color: #c9dbe9;
@@ -144,16 +173,14 @@ li a{
 li a:hover{
 	background-color: #EAFFBD;
 }
-#git{
-	width: 80px;
-	height: 80px;
-	display: none;
-	background-color: blue;
-}
-#git{
-	display: inline;
-	height: 200px;
-	width: 200px;
-	background-color: black;
-	border: 2px solid red;
-}
+
+
+
+
+
+
+
+
+
+
+
