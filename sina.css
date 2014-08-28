@@ -3,13 +3,14 @@
 	}
 
 body {
-	/*To hide the horizontal scroller appearing during the animation*/
-	overflow: hidden;
+	/*To hide the horizontal scroller appearing during the animation
+	overflow: hidden;*/
 }
 
 #clouds{
 	height: 20%;
 	padding: 100px 0;
+	padding-bottom: 20px;
 	background: #c9dbe9;
 	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -132,6 +133,7 @@ body {
 	margin: 0 auto;
 }
 #p{
+	font-family: Vollkorn;
 	float: right;
 	display: inline;
 	width: 300px !important;
@@ -156,6 +158,10 @@ body {
 
 #projects{
 	display: block;
+	max-width: 65%;
+	margin:0 auto;
+	padding-top: 60px;
+	
 }
 .buttons{
 	display: inline; 
@@ -164,7 +170,7 @@ body {
 }
 li a{
 	background-color: #c9dbe9;
-	padding: 3px;
+	padding: 30px;
 	text-decoration: none;
 	border: 1px solid black;
 	border-radius: 2px;
