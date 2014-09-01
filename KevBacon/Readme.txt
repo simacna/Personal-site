@@ -1,0 +1,1 @@
+Query written using MySQL - Searches through IMDB database, iterating over all movies an actor has been in, iterating through. Also input form to search all movies an actor has been in with Kevin Bacon.
