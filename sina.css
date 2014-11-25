@@ -1,11 +1,34 @@
-*{ margin: 0;
-	font-family: Vollkorn;
-	}
+html, body { margin: 0 auto; padding: 0; font-family: arial; font-size: 11px; font-weight: 400;}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
-body {
-	/*To hide the horizontal scroller appearing during the animation
-	overflow: hidden;*/
-}
+* {font-family: 'Open Sans', sans-serif;}
+
+div.menu {width: 1000px; margin-left: auto; margin-right: auto; position: absolute; bottom: 0px; left: 50px;}
+ul.center {margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 0px;}
+
+ul, li {position: relative; list-style-type: none; float: left; padding: 0px}
+ul li {display: inline-block; width: 245px; height: 50px; line-height: 50px; text-align: center; background: rgba(255, 218, 185, 0.4); margin-right: 5px; letter-spacing: 0.02em; text-tranform: uppercase; border-top-right-radius:10px}
+
+ul.center li a {z-index: 99; position: relative}
+
+ul.center li:hover {cursor: pointer;}
+
+ul li a {color: #333; font-weight: 400; font-size: 15px; text-decoration: none;}
+ul li:hover {background: rgba(230, 230, 250, 0.8); transition: 0.3s all; border-radius: 0px}
+ul li a:hover {color: #333; font-weight: 400;}
+ul.subList li {background-color: rgba(240,255,255) !important; border-radius: 10px; margin-bottom: 50px; z-index: 999 !important; }
+
+ul.subList { opacity: 1; display: none; position: absolute; bottom: 10px; opacity: 1; z-index: 1}
+
+.me {position: absolute; right: 50px; bottom: 50px; float: right; min-height: 200px; width: 500px; background: url(http://comportdesign.com/down-1.png) -30px 20px no-repeat;}
+
+.me img {width: 200px; height: 200px; position: absolute; right: 0px; bottom: 20px;}
+
+.me h1 {font-weight: 400; text-transform: uppercase; font-size: 30px; padding: 0px; margin: 0px; position: absolute; width: 100%; text-align: left; top: 20px; left: 20px;}
+
+.me p {width: 50%; position: relative; float: left; margin-top: 60px; left: 20px; font-size: 20px; color: #444}
+
+.projects{font-size: 10px;}
 
 #clouds{
 	height: 20%;
@@ -26,12 +49,12 @@ body {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 
-	position: relative; 
+	position: relative;
 }
 
 .cloud:before, .cloud:after {
 	content: '';
-	position: absolute; 
+	position: absolute;
 	background: #fff;
 	width: 100px; height: 80px;
 	position: absolute; top: -15px; left: 10px;
@@ -124,102 +147,3 @@ body {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
 }
-
-/*tabs on top for changing to different project sections */
-
-
-#main{
-	width: 70%;
-	margin: 0 auto;
-}
-#p{
-	font-family: Vollkorn;
-	float: right;
-	display: inline;
-	width: 300px !important;
-	padding-right: 100px;
-}
-
-#profile{
-	display: inline;
-	border-radius: 3px;
-	float: left;
-	position: relative;
-	padding-left: 300px;
-}
-
-
-#summary{
-	display: inline;
-	vertical-align: top;
-	position: relative;
-	margin-right: 100px;
-}
-
-#projects{
-	position:absolute;
-	bottom:0px;
-	left:0px;
-	width: 65%;
-	margin:0 auto;
-	padding-top: 60px;
-	
-
-}
-
-
-li.buttons{
-	position:relative;
-	float:left;
-	text-decoration: none;
-	width:20%;
-
-}
-
-ul {
-	min-width:100%;
-	height: 50px;
-		list-style-type:none;
-}
-
-ul.first {
-
-}
-
-ul.first li {
-	float: left;
-	
-}
-
-ul.nested {
-	position:absolute;
-	bottom:0px;
-	
-}
-
-li a{
-	background-color: #c9dbe9;
-	padding: 30px;
-	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 2px;
-	margin: 2px;
-}
-li a:hover{
-	background-color: #EAFFBD;
-}
-
-.show{
-	opacity: 0;
-}
-
-
-
-
-
-
-
-
-
-
-

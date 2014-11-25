@@ -1,10 +1,23 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="sina.css"/>
-	<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css" />
+
+
+
+	<title>Sina Sima - New York City</title>
+
+	<link rel="stylesheet" type="text/css" href="sina.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+	<script src="sina.js"></script>
+
 
 </head>
+
 <body>
 	<div id="clouds">
 		<div class="cloud x1"></div>
@@ -14,33 +27,38 @@
 		<div class="cloud x4"></div>
 		<div class="cloud x5"></div>
 	</div>
-	<div id="main">
-		<div id="pic">
-			<img id="profile" src="images/profile.png" title="My profile pic"/>
-		</div>
-		<div id="p">
-			<p id="summary">Hey, welcome to my personal site I put together for applying to Hacker School. Here you'll find a couple of the projects I've finished and a couple that I'm working on. </p>
-		</div>
+	<div class="me">
+		<h1><b>Hi!</b> I'm Sina Sima.</h1>
+
+		<p>View my <a href="https://github.com/simacna" target="_blank">GitHub</a> projects.</p>
+		<img id="bounce" src="http://comportdesign.com/sina-face.jpg">
+
 	</div>
-		
-		
-	<div style="clear: both;"></div>
-	<div id="projects">
-		<ul class="first">
-			<li class="buttons"><a href="http://www.github.com/simacna"> GitHub </a>
-				<ul class="nested">
-					<li class="show">hi</li>
+
+	<div class="menu">
+		<ul class="center">
+			<li>My Travels
+				<ul class="subList">
+					<li id="subItem1"><a href="Traveled-places/index.html" class="projects" target="_blank">JavaScript/jQuery, Google and Instagram API</a></li>
 				</ul>
 			</li>
-			<li class="buttons"><a href=""> My travels </a></li>
-			<li class="buttons"><a href=""> Rectangles </a></li>
-			<li class="buttons"><a href=""> Kevin Bacon </a></li>
-			<li class="buttons"><a href=""> Raspberry Pi</a></li>
-	</ul>
-	
-	</div>
-	
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script type="text/javascript" src="sina.js"></script>	
-</body>
-</html>
+			<li>Rectangles
+				<ul class="subList">
+					<li id="subItem1"><a href="Triangles/rectangles.html" class="projects"  target="_blank" >Functional style programming using JavaScript</a></li>
+				</ul>
+			</li>
+			<li>Kevin Bacon
+				<ul class="subList">
+					<li id="subItem1"><a href="KevBacon/myimdb.php" class="projects"  target="_blank">PHP/MySQL to query IMDB database</a></li>
+				</ul>
+			</li>
+			<li>Asteroids
+				<ul class="subList">
+					<li id="subItem1"><a href="http://www.codeskulptor.org/#user16_eT8y82Lnea_6.py" class="projects" target="_blank" id="item3">Python - Asteroids game built</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</body>
+	</html>

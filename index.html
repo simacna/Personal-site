@@ -8,14 +8,19 @@
 <title>Sina Sima - New York City</title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 <script>
-jQuery(document).ready(function () {
+$(document).ready(function () {
        $(".menu ul li").hover(function(){
        		$(this).children("ul").stop().slideDown(300);
        },
        function(){
              $(this).children("ul").stop().slideUp(300);   
     	   });
+
+				$('#bounce').click(function(){
+					$(this).effect('bounce',{times:3}, 300);
+				});
 });
 </script>
 
@@ -187,7 +192,7 @@ jQuery(document).ready(function () {
 		<h1><b>Hi!</b> I'm Sina Sima.</h1>
 		
 		<p>View my <a href="https://github.com/simacna" target="_blank">GitHub</a> projects.</p>
-		<img src="http://comportdesign.com/sina-face.jpg">
+		<img id="bounce" src="http://comportdesign.com/sina-face.jpg">
 
 	</div>
 
